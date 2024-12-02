@@ -1,0 +1,14 @@
+body {
+    background-color: bisque;
+    color: cadetblue;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: dashed; /*retira os sublinhado do link*/
+    
+} 
+ 
+a:visited {
+    color: rgb(209, 175, 253)
+}
