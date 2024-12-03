@@ -1,0 +1,20 @@
+#titulo {
+    font-size: 2em;
+    text-align: center;
+    color: green;
+}
+
+#descricao {
+    background-color: rgb(230, 229, 226);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.lista {
+     background-color: red;
+}
+
+#CSS {
+    background-color: green;
+}
+
