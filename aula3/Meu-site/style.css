@@ -1,0 +1,141 @@
+@media (max-width: 768px) {
+      #cabecalho-desk {
+        display: none;
+      }
+
+      .cabecalho {
+        text-align: center;
+        font-weight: bold;
+        background-color: rgb(248, 99, 45);
+      }
+
+      .cabecalho_logo {
+        padding: 1.5em 0;
+        height: 3.5em;
+        display: flex;
+        justify-content: center;
+      }
+
+      .cabecalho_menu {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: rgba(255, 107, 53, 0.986);
+        padding: 2%;
+      }
+
+      .cabecalho_item-menu a{
+        display: inline-block;
+        margin-left: 1em;
+        margin-right:1em ;
+        padding: 1.86em 1.42em;
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .escondida {
+        display: none;
+      }
+
+      #dropdown-menu {
+        padding: 2%;
+        align-items: start;
+
+      }
+
+      #dropdown-menu a {
+        text-decoration: none;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+      }
+}
+
+@media (min-width: 769px) {
+       #cabecalho-mobile {
+            display: none;
+        }
+
+        .cabecalho {
+          display: flex ;
+          justify-content: space-between;
+          align-items: center;
+          background-color: rgb(224, 85, 35);
+    }
+
+    .cabecalho_logo {
+        padding: 1.5em 0;
+        width: 10.5em;
+        margin-left: 40px;
+
+    }
+
+    .cabecalho_menu {
+        display: flex;
+        justify-content: end;
+    }
+
+
+    .cabecalho_item-menu a {
+        margin-left: 1em;
+        margin-right: 1em;
+        padding: 1.86em 1.42em;
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/tigrinho.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+}
+
+.banner-texto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s ease;
+
+}
+
+.banner-texto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+}      
+
+.botao-saiba-mais {
+transition: all 0.5s ease;
+background-color: rgba(250, 136, 54, 0.644);
+color: white;
+text-decoration: none;
+border-radius: 5px;
+padding: 10px;
+width: 120px;
+margin-top: 5px;
+align-self: center;
+}
+
+.botao-saiba-mais:hover {
+    transform: translateY(-2px);
+    background-color: rgb(255, 68, 0);
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.3);
+}
+
+
