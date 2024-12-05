@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: orange;
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    background-color: orange;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
