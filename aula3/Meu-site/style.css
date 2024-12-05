@@ -122,7 +122,7 @@
 
 .botao-saiba-mais {
 transition: all 0.5s ease;
-background-color: rgba(250, 136, 54, 0.644);
+background-color: rgb(250, 136, 54, 0.644);
 color: white;
 text-decoration: none;
 border-radius: 5px;
@@ -138,4 +138,84 @@ align-self: center;
     box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.3);
 }
 
+.container-pai {
+  background-color: rgb(224, 85, 35);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 35px;
+}
+.container-filho {
+  background-color: rgba(141, 54, 22, 0.411);
+  padding: 30px;
+  border-radius: 8px;
+  width: 300px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
+.container-filho h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+.container-filho p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.imagem-tigre {
+  width: 200px;
+  border-radius: 50%;
+}
+
+
+.container2 {
+  background-color: rgb(224, 85, 35);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 40px;
+  text-align: justify;
+}
+
+.texto {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  margin-right: 50px;
+}
+
+.container-filho2{
+        width: 600px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white
+}
+
+.imagem-2 {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.imagem-2:hover {
+     transition: all 1.5s ease;
+     transform: scale(1.2);
+     border-radius: 50%;
+}
+
+/* @font-face {
+     font-family:"nome da fonte";
+     scr: url('font link') format ('truetype')
+}*/
+
+.footer {
+  background-color: rgb(224, 85, 35);
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
